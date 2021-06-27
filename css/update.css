@@ -1,0 +1,32 @@
+body{
+	background-image: url(../images/insert.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center;
+	height: 100vh;
+}
+
+.container{
+    background-color: whitesmoke;
+    height: 420px;
+    width: 500px;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+form{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-outline-primary{
+    margin-top: 20px;
+    margin-left: 30px;
+}
